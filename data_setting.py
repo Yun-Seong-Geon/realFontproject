@@ -13,6 +13,8 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 base_dir = os.path.join(script_dir, '..')
 
 # 이미지 및 JSON 기본 폴더 경로
-base_image_folder = os.path.join(base_dir, '1.원천데이터')
-base_json_folder = os.path.join(base_dir, '2.라벨링데이터')
+#base_image_folder = os.path.join(base_dir, '1.원천데이터')
+#base_json_folder = os.path.join(base_dir, '2.라벨링데이터')
 
+base_image_folder = "C://Users//admin//Desktop//Sample//03.샘플데이터//1.원천데이터"
+base_json_folder = "C://Users//admin//Desktop//Sample//03.샘플데이터//2.라벨링데이터"
